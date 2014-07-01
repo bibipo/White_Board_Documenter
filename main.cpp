@@ -39,8 +39,7 @@ int main(){
 			cin >> fileAddress;
 
 			// Initilize capture
-			//ctrlr.captureFromFile(fileAddress);
-			ctrlr.captureFromFile("v1.wmv");
+			ctrlr.captureFromFile(fileAddress);
 
 			return EXIT_SUCCESS;
 		}
